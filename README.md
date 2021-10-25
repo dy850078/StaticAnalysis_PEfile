@@ -1,11 +1,12 @@
 # StaticAnalysis_PEfile
 
 
-# Overview
+## Overview
 Using Hierarchical Clustering to classify malicious PE files into malware family
 
-# Feature selection & Data Frames creation
-## Features
+
+## Feature selection & Data Frames creation
+### Features
 - 3 SHA1 in each malware's PE sections 
 - 3 Misc Valuse in each malware's PE sections
 - 3 Misc_PhysicalAddress Value in each malware's PE sections
