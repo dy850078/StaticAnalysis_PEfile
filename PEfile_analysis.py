@@ -15,7 +15,7 @@ from scipy.cluster.hierarchy import dendrogram
 
 # pip install pefile is needed
 # It combines 40 malware's pefile.dump_dict().
-with open("/content/pef_dumpdict_40.pickle", 'rb') as fd:
+with open("/dataset/pef_dumpdict_40.pickle", 'rb') as fd:
     pef_dumpdicts = pickle.load(fd)
 
 # The id of the 40 malwares
